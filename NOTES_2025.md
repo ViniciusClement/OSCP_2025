@@ -1,6 +1,10 @@
 # OSCP 2025
+
+* https://github.com/n0veride/pwk/tree/main
+* https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide
+* https://medium.com/r3d-buck3t/command-execution-with-postgresql-copy-command-a79aef9c2767
+
 ```
-https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide
 
 stand-alone -> 10 local -> 10 proof (WEB) - Serviço senha fraca (FTP)
 stand-alone -> 10 local -> 10 proof (WEB) - Serviço senha fraca (postgree)
@@ -50,9 +54,6 @@ flag
 mysql -> (OS Injection)
 
 postgree -> (OS Injection)
-
-https://medium.com/r3d-buck3t/command-execution-with-postgresql-copy-command-a79aef9c2767
-
 ```
 
 ## MSSQL Injetion
