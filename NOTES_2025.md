@@ -58,9 +58,9 @@ postgree -> (OS Injection)
 
 ## MSSQL Injetion
 
-https://www.hackingarticles.in/mssql-for-pentester-command-execution-with-xp_cmdshell/
-
-https://medium.com/@oumasydney2000/mssql-enumeration-1433-1ee5fa6ac5d3
+* https://www.hackingarticles.in/mssql-for-pentester-command-execution-with-xp_cmdshell/
+* https://medium.com/@oumasydney2000/mssql-enumeration-1433-1ee5fa6ac5d3
+* https://gist.github.com/simran-sankhala/03c5c20078466f2bd29bac840ab3a5cf
 ```
 mssql -> xp_cmdshell (OS Injection)
 ```
