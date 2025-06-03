@@ -3,6 +3,8 @@
 * https://github.com/n0veride/pwk/tree/main
 * https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide
 * https://medium.com/r3d-buck3t/command-execution-with-postgresql-copy-command-a79aef9c2767
+* https://0xdf.gitlab.io/
+* https://0xdf.gitlab.io/cheatsheets/htb-interactive
 
 ```
 
