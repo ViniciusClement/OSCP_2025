@@ -943,6 +943,12 @@ $ExecutionContext.SessionState.LanguageMode
 Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
 ```
 
+### Exclude folder
+```
+powershell -ep by-pass
+Set-MpPreference -ExclusionPath C:\Tools
+Get-MpPreference | Select-Object -Property ExclusionPath -ExpandProperty ExclusionPath
+```
 ### AMSI 
 (AntiMalwareScan Interface) gives registered antivirus access to the contents of a script prior to execution, dependent on signature-based detection by the active antivirus.  
 * Detection of malicious scripts in:  
