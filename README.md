@@ -667,11 +667,12 @@ or
 
 * Install linux
 ```
-sudo apt install bloodhound
+sudo apt update && sudo apt install -y bloodhound
 ```
 * neo4j start - http://localhost:7474/
 ```
 sudo neo4j start
+sudo neo4j console
 ```
 
 * Enumeration - Windows
@@ -689,6 +690,20 @@ Invoke-BloodHound -CollectionMethod LoggedOn -Verbose
 sudo bloodhound-python -u <user> -p <password> -ns <ip_dc> -d test.local -c all
 ```
 https://github.com/fox-it/BloodHound.py
+
+* AD Explorer snapshot to Json files
+```
+git clone https://github.com/c3c/ADExplorerSnapshot.py.git
+cd ADExplorerSnapshot.py
+
+sudo apt install python3-venv -y
+python3 -m venv venv
+source venv/bin/activate
+pip install .
+pip3 install --user .
+```
+
+https://github.com/c3c/ADExplorerSnapshot.py
 
 * enum4linux - enumeration
 ```
