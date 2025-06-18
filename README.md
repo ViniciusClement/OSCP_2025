@@ -701,7 +701,11 @@ python3 -m venv venv
 source venv/bin/activate
 pip install .
 pip3 install --user .
+
+python3 ADExplorerSnapshot.py teste1.dat 
 ```
+
+
 
 https://github.com/c3c/ADExplorerSnapshot.py
 
