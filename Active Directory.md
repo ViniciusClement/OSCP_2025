@@ -3,7 +3,12 @@
 * https://learn.microsoft.com/en-us/training/paths/secure-windows-server-premises-hybrid-infrastructures/
 * https://learn.microsoft.com/en-us/training/browse/
 * https://learn.microsoft.com/en-us/training/browse/?filter-products=Acti&products=windows&levels=beginner&resource_type=course
-* 
+
+
+## Information
+
+* https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups
+
 
 # Security Identifiers (SIDs)
 
