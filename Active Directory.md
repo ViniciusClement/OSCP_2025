@@ -18,6 +18,9 @@
 * https://0xshin.hashnode.dev/active-directory-series-introduction-to-the-extrasids-attack-from-linux-episode05?utm_source=chatgpt.com
 * https://0xshin.hashnode.dev/active-directory-series-cross-forest-kerberoasting-with-rubeus-episode-6
 * https://0xshin.hashnode.dev/active-directory-series-cross-forest-trust-abuse-from-linux-episode-7
+* https://www.optiv.com/insights/source-zero/blog/kerberos-domains-achilles-heel?utm_source=chatgpt.com
+* https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/child-domain-da-to-ea-in-parent-domain?utm_source=chatgpt.com
+* https://jumpcloud.com/blog/active-directory-domain-trust-relationship-guide?utm_source=chatgpt.com
 
 # Security Identifiers (SIDs)
 
