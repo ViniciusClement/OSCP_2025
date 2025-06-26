@@ -5,10 +5,19 @@
 * https://learn.microsoft.com/en-us/training/browse/?filter-products=Acti&products=windows&levels=beginner&resource_type=course
 
 
-## Information
+# Information
 
 * https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups
 
+# Active Directory Series
+
+* https://0xshin.hashnode.dev/active-directory-series-introduction-to-domain-trusts-enumeration-episode-01
+* https://0xshin.hashnode.dev/active-directory-series-sid-history-attribute-episode-02
+* https://0xshin.hashnode.dev/active-directory-series-extrasids-attack-with-mimikatz-episode-03?utm_source=chatgpt.com
+* https://0xshin.hashnode.dev/active-directory-series-extrasids-attack-with-rubeus-episode-4
+* https://0xshin.hashnode.dev/active-directory-series-introduction-to-the-extrasids-attack-from-linux-episode05?utm_source=chatgpt.com
+* https://0xshin.hashnode.dev/active-directory-series-cross-forest-kerberoasting-with-rubeus-episode-6
+* https://0xshin.hashnode.dev/active-directory-series-cross-forest-trust-abuse-from-linux-episode-7
 
 # Security Identifiers (SIDs)
 
