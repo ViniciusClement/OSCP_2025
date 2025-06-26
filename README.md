@@ -365,6 +365,17 @@ tasklist
 schtasks
 ```
 
+### RSAT
+* Get status RSAT tools
+```
+Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property DisplayName, State
+```
+
+* Installation RSAT
+```
+Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability -Online
+```
+
 #### cmdlets of Powershell 
 * Configure ActiveDirectory Module - RSAT
 ```
