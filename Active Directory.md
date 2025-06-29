@@ -4,6 +4,8 @@
 * https://learn.microsoft.com/en-us/training/browse/
 * https://learn.microsoft.com/en-us/training/browse/?filter-products=Acti&products=windows&levels=beginner&resource_type=course
 
+# Mimikatz
+* https://adsecurity.org/?page_id=1821
 
 # Information
 
