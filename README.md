@@ -706,6 +706,13 @@ sudo bloodhound-python -u <user> -p <password> -ns <ip_dc> -d test.local -c all
 ```
 https://github.com/fox-it/BloodHound.py
 
+### Commands BloodHound
+
+* Find a user
+```
+MATCH (u:User) WHERE u.name =~ '(?i).*licenca.*'RETURN u
+```
+
 * AD Explorer snapshot to Json files
 ```
 git clone https://github.com/c3c/ADExplorerSnapshot.py.git
