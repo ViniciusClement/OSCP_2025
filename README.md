@@ -712,6 +712,7 @@ https://github.com/fox-it/BloodHound.py
 ```
 MATCH (u:User) WHERE u.name =~ '(?i).*licenca.*'RETURN u
 ```
+_________________
 
 * AD Explorer snapshot to Json files
 ```
