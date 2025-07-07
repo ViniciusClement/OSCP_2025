@@ -280,6 +280,14 @@ smbmap -H <ip> -u <user>
 crackmapexec smb <ip> --shares -u <user> -p '<pass>'
 ```
 
+### Transfer Files
+* SCP
+```
+C:\Tools>scp linpeas_linux_amd64 bob@192.168.0.67:/tmp/
+bob@192.168.0.67's password:
+linpeas_linux_amd64                       
+```
+
 ### Remote Access
 #### Remote Desktop Protocol - RDP
 
