@@ -1635,7 +1635,13 @@ hashcat -m 18200 hash.txt /usr/share/wordlists/rockyou.txt
 ```
 john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
 ```
-
+* Crack krbtgs (Kerberos)
+```
+hashcat -m 13100 ../hash.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule
+```
+```
+john --format=krb5tgs hash.txt wordlist/wordlist.txt 
+```
 ### Loading arbitrary DLL
 Members of the DNSAdmins group Loading arbitrary DLL with the privileges of dns.exe ( SYSTEM )  
 In case the DC also serves as DNS this will give us the escalation for the DA.  
